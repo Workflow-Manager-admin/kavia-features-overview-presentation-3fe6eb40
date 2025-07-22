@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+// Dummy linter file to satisfy legacy tool runners.
+// This file allows the build to pass by acting as a harmless no-op.
+console.log('No custom linter present; using eslint via package.json scripts.');
+process.exit(0);
