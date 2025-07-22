@@ -1,0 +1,4 @@
+{
+    "command": "npm install && npm run build",
+    "working_directory": "/home/kavia/workspace/code-generation/kavia-features-overview-presentation-3fe6eb40/features_slide_deck_frontend"
+}
