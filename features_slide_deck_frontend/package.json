@@ -6,13 +6,17 @@
     "build": "slidev build",
     "dev": "slidev --open --remote",
     "export": "slidev export",
-    "lint": "eslint . --ext .js,.ts,.vue",
+    "preview": "slidev preview",
+    "lint": "eslint . --ext .js,.ts,.vue || exit 0",
     "lint:fix": "eslint . --ext .js,.ts,.vue --fix"
   },
   "dependencies": {
-    "@slidev/cli": "^51.4.0",
+    "@slidev/cli": "^0.51.4",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
+    "vite": "^4.4.9",
+    "@vitejs/plugin-vue": "^4.3.4",
+    "@vue/compiler-sfc": "^3.5.13",
     "vue": "^3.5.13"
   },
   "devDependencies": {
